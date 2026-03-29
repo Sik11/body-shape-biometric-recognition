@@ -1,0 +1,84 @@
+# Biometric data - never commit
+biometrics/
+datasets/training/
+datasets/test/
+
+# Large binary archives
+*.rar
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Cached model state (can embed biometric features, large size)
+*.pickle
+*.pkl
+
+# Pre-trained model weights (auto-downloaded at runtime)
+*.pt
+*.pth
+*.dat
+
+# Temporary files
+temp_resized_image.jpg
+*.tmp
+
+# Generated outputs (reproduced at runtime)
+outputs/masks/
+outputs/masks_head/
+outputs/keypoints/
+outputs/silhouette_masks/
+outputs/histograms/
+outputs/eer_curves/
+outputs/predictions.txt
+
+# LaTeX build artifacts
+*.pgf
+*.aux
+*.log
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Report and figures
+report/
+example.pdf
+
+# Assignment PDF (belongs to University of Southampton)
+COMP 6211 Biometrics Coursework.pdf
+
+
+# Duplicate/legacy directories not included in repo
+final_submission/
+final_submission 2/
+final_submission.zip
+COMP6211-Biometrics-CW-master/
+Biometrics.rar
+example.zip
+bsrs_setup.py
